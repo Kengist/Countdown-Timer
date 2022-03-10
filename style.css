@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+
+}
+h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(1, 1, 68);
+    text-align: center;
+}
+.soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 4px groove black;
+    margin-bottom: 10px;
+}
+.day,.hour,.minute,.second{
+    font-size: 30px;
+    background-color:rgb(4, 4, 88) ;
+    color: aliceblue;
+    padding: 10px;
+}
+.hour{
+    
+}
